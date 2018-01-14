@@ -17,6 +17,11 @@ function destructivelyRemoveFirstKitten(){
   return kittens;
 };
 function appendKitten(name){
-  var addEndKit = [...kittens,'Broom'];
-  return addEndKit;
+  var addEndKittens = [...kittens,'Broom'];
+  return addEndKittens;
 };
+function prependKitten(name){
+  var addStrtKittens = ['Broom',...kittens];
+  return addStrtKittens;
+};
+
