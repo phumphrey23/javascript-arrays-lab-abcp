@@ -24,4 +24,3 @@ function prependKitten(name){
   var addStrtKittens = ['Broom',...kittens];
   return addStrtKittens;
 };
-
