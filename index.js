@@ -28,7 +28,7 @@ function removeLastKitten(array){
   kittens.slice(0, kittens.legnth - 1);
   return kittens;
 };
-function removeFirstKitten(){
+function removeFirstKitten(array){
   kittens.slice(1)
   return kittens;
 };
