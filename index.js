@@ -21,6 +21,6 @@ function appendKitten(name){
   return addEndKittens;
 };
 function prependKitten(name){
-  var addStrtKittens = ['Broom',...kittens];
+  var addStrtKittens = ['Arnold',...kittens];
   return addStrtKittens;
 };
