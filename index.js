@@ -25,7 +25,7 @@ function prependKitten(name){
   return addStrtKittens;
 };
 function removeLastKitten(){
-  var newKittens = kittens.slice(0, kittens.legnth - 1);
+  var newKittens = kittens.slice(-2);
   return newKittens;
 };
 function removeFirstKitten(){
